@@ -1,0 +1,38 @@
+name: "User Story"
+description: "Suggest a new user story."
+labels: [user story]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## User Story
+        Please use the format: As a [user], I want [goal] so that [reason].
+  - type: input
+    id: title
+    attributes:
+      label: "User Story Title"
+      placeholder: "As a [user], I want [goal] so that [reason]"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: "What is the user trying to achieve?"
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: "Acceptance Criteria"
+      description: "List of conditions that must be met."
+      placeholder: "- [ ] Condition 1\n- [ ] Condition 2"
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Additional Notes"
+      description: "Any extra context or dependencies."
+    validations:
+      required: false
