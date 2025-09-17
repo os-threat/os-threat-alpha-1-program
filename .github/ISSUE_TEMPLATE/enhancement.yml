@@ -1,31 +1,31 @@
-name: "Feature Request"
-description: "Propose a new feature or enhancement."
+name: "Enhancement"
+description: "Propose a new enhancement or improvement."
 labels: [enhancement]
 body:
   - type: markdown
     attributes:
       value: |
-        ## Feature Request
+        ## Enhancement
         Please provide as much detail as possible.
   - type: input
     id: title
     attributes:
-      label: "Feature Title"
-      placeholder: "Short summary of the feature"
+      label: "Enhancement Title"
+      placeholder: "Short summary of the enhancement"
     validations:
       required: true
   - type: textarea
     id: description
     attributes:
       label: "Description"
-      description: "What is the feature?"
+      description: "What is the enhancement?"
     validations:
       required: true
   - type: textarea
     id: motivation
     attributes:
       label: "Motivation"
-      description: "Why is this feature needed?"
+      description: "Why is this enhancement needed?"
     validations:
       required: true
   - type: textarea
