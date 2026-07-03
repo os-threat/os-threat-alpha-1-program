@@ -36,7 +36,8 @@ Engage the audience with targeted questions:
 
 - Their view on open source strategy in cybersecurity
 - What it takes to win in this space
-- Challenges and opportunities in integrating many third-party open source applications
+- What makes a user choose between different open source options
+- Challenges and opportunities in integrating many third-party open source applications together
 
 ---
 
